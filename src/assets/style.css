@@ -1,0 +1,10 @@
+#app {
+  background-image: url("https://api.unsplash.com/photos/random?orientation=landscape&client_id=PMvSGjzyrrelEBgst1Smy9BqnGuex1ExuMIG7Mio6Mg");
+  background-size: cover;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;

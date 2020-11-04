@@ -1,26 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3">
+        <Left/>
+      </div>
+      <div class="col-6">
+        <Center/>
+      </div>
+      <div class="col-3">
+        <Right/>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import Left from './components/Left'
+  import Center from './components/Center'
+  import Right from './components/Right'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Left,
+    Center,
+    Right
   }
 }
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>
