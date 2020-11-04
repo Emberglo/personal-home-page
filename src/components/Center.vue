@@ -1,18 +1,18 @@
 <template>
-    <div class="Center">
-        <div class="container-fluid d-flex flex-column">
-          <div class="row">
-            <div class="col-12">
-              <Clock/>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <Quote/>
-            </div>
-          </div>
+  <div class="Center">
+    <div class="flex-col justify-between items-center">
+      <div class="row">
+        <div class="w-full">
+          <Clock/>
         </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="w-full">
+        <Quote/>
+      </div>
+    </div>
+  </div>
 </template>
 
 

@@ -1,15 +1,13 @@
 <template>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-3">
-        <Left/>
-      </div>
-      <div class="col-6">
-        <Center/>
-      </div>
-      <div class="col-3">
-        <Right/>
-      </div>
+  <div class="flex justify-center">
+    <div class="w-1/4">
+      <Left/>
+    </div>
+    <div class="w-1/2">
+      <Center/>
+    </div>
+    <div class="w-1/4">
+      <Right/>
     </div>
   </div>
 </template>

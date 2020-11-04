@@ -1,13 +1,13 @@
 <template>
     <div class="Right">
-        <div class="container-fluid">
+        <div class="">
           <div class="row">
-            <div class="col-12">
+            <div class="">
               <Dev/>
             </div>
           </div>
           <div class="row">
-            <div class="col-12">
+            <div class="">
               <Socials/>
             </div>  
           </div>

@@ -1,18 +1,16 @@
 <template>
-    <div class="Left">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <Weather/>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <Image/>
-            </div>
-          </div>
-        </div>
+  <div class="Left">
+    <div class="row flex-col justify-between">
+      <div class="">
+        <Weather/>
+      </div>
     </div>
+    <div class="row">
+      <div class="">
+        <Image/>
+      </div>
+    </div>
+  </div>
 </template>
 
 
